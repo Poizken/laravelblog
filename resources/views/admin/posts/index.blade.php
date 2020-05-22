@@ -14,11 +14,11 @@
                 <thead>
                 <tr>
                   <th>ID</th>
-                  <th>Название</th>
-                  <th>Категория</th>
-                  <th>Теги</th>
-                  <th>Картинка</th>
-                  <th>Действия</th>
+                  <th>Title</th>
+                  <th>Category</th>
+                  <th>Tags</th>
+                  <th>Image</th>
+                  <th>Actions</th>
                 </tr>
                 </thead>
                 <tbody>

@@ -30,7 +30,10 @@ Route::post('/login', 'Auth\LoginController@login');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 //ADMIN
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['admin', 'ban']], function(){
+Route::middleware('admin')
+    ->namespace('Admin')
+    ->prefix('admin')
+    ->group(function(){
     Route::get('/', 'DashboardController@index')->name('admin');
     Route::resource('/categories', 'CategoriesController', ['names' => 'admin.categories']);
     Route::resource('/tags', 'TagsController', ['names' => 'admin.tags']);

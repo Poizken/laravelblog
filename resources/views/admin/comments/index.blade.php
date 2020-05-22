@@ -2,14 +2,7 @@
 
 @section('content')
       <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">Листинг сущности</h3>
-            </div>
-            <!-- /.box-header -->
             <div class="box-body">
-              <div class="form-group">
-                <a href="create.html" class="btn btn-success">Добавить</a>
-              </div>
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>

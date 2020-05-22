@@ -15,7 +15,7 @@
         </div>
       </div>
         <div class="box-footer">
-          <button class="btn btn-default">Back</button>
+          <a href="{{ route('admin.categories.index') }}" class="btn btn-default">Go back</a>
           <button class="btn btn-success pull-right">Create</button>
         </div>
           {{ Form::close() }}

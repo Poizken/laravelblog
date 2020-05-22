@@ -16,7 +16,7 @@
       </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          <button class="btn btn-default">Go back</button>
+          <a href="{{ route('admin.tags.index') }}" class="btn btn-default">Go back</a>
           <button class="btn btn-success pull-right">Create</button>
         </div>
         <!-- /.box-footer-->

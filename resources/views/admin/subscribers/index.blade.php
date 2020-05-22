@@ -8,7 +8,7 @@
             <!-- /.box-header -->
             <div class="box-body">
               <div class="form-group">
-                <a href="{{ route('admin.subscribers.create') }}" class="btn btn-success">Добавить</a>
+                <a href="{{ route('admin.subscribers.create') }}" class="btn btn-success">Create</a>
               </div>
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
